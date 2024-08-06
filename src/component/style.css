@@ -1,0 +1,24 @@
+.container{
+    display: flex;
+    width: 100%;
+    padding:  10px 0px 0px 8px;
+    border-bottom: solid 1px  rgb(233, 230, 230);
+}
+.item{
+    text-decoration: none;
+    color: rgb(111, 110, 110);
+    padding: 5px 10px;
+    margin-right: 4px;
+    box-sizing: none;
+    border-bottom: solid 3px rgb(255, 255, 255);
+    transition: all 0.2s;
+}
+
+.item:hover{
+    border-bottom: solid 3px#1677ff;
+}
+
+.active{
+    border-bottom: solid 3px #1677ff;
+    color: #1677ff;
+}
